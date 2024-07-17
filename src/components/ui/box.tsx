@@ -38,9 +38,9 @@ export default function Box(item: any) {
                   <path
                     d="M5.47447 10.6465L8.06048 13.2325L14.5255 6.76746"
                     stroke="#5AE8AF"
-                    stroke-width="1.53846"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="1.53846"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </g>
                 <defs>
