@@ -54,7 +54,7 @@ export default function Box(item: any) {
           ))}
         </ul>
       </div>
-      <button className="bg-[#7E4BFA] border border-[#C2A8FF] mt-12  w-full rounded font-medium py-3">
+      <button className="bg-[#7E4BFA] border duration-200 hover:bg-[#7d4bfab9] border-[#C2A8FF] mt-12  w-full rounded font-medium py-3">
         Start {item.title} Plan
       </button>
     </div>

@@ -10,8 +10,8 @@ export default function Overview() {
     <section className="grid md:grid-cols-2  *:max-w-[540px] h-full gap-6">
       <div className="space-y-6">
         <h4 className="text-xl font-semibold">Account Details</h4>
-        <div className="py-8 border-2 rounded-md border-slate-600 bg-[#182130] flex justify-between *:h-fit">
-          <div className="flex gap-6 lg:gap-10 px-6 lg:px-8 py-4">
+        <div className="py-8 border-2 rounded-md border-slate-600 bg-[#182130] flex justify-between">
+          <div className="flex gap-6 lg:gap-10 px-6 sm:flex-row flex-col lg:px-8 py-4">
             <Image
               width={500}
               height={500}
@@ -36,7 +36,7 @@ export default function Overview() {
               </div>
             </div>
           </div>
-          <button className="bg-[#7E4BFA] border border-[#C2A8FF] px-5 font-semibold rounded py-1.5 mr-8">
+          <button className="bg-[#7E4BFA] h-fit border duration-200 hover:bg-[#7d4bfab9] border-[#C2A8FF] px-5 font-semibold rounded py-1.5 mr-8">
             Edit
           </button>
         </div>
@@ -52,7 +52,7 @@ export default function Overview() {
                   Basic (500 Words Left)
                 </p>
               </div>
-              <button className="bg-[#7E4BFA] flex gap-3 items-center border border-[#C2A8FF] px-3 font-semibold rounded py-1.5">
+              <button className="bg-[#7E4BFA] duration-200 hover:bg-[#7d4bfab9] flex gap-3 items-center border border-[#C2A8FF] px-3 font-semibold rounded py-1.5">
                 Action{" "}
                 <svg
                   width="10"
