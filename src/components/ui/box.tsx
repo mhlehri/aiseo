@@ -1,7 +1,7 @@
 export default function Box(item: any) {
   return (
     <div
-      className="border-2 flex-col flex place-content-between border-slate-500 rounded-2xl px-5 py-12 max-w-[355px] w-full relative"
+      className="border-2 flex-col flex place-content-between border-slate-500 rounded-2xl px-4 sm:px-6 py-10 sm:py-12 max-w-[355px] w-full relative"
       style={{
         background: "linear-gradient(228.68deg, #2F3241 1.66%, #0F172A 42.04%)",
       }}
@@ -13,19 +13,16 @@ export default function Box(item: any) {
       )}
 
       <div>
-        <div className="space-y-3 mb-12">
+        <div className="space-y-3 mb-8 sm:mb-12">
           <p className="text-slate-200 font-medium text-lg">{item.title}</p>
           <h2 className="text-4xl text-slate-50 font-semibold">
             ${item.price}
             <span className="text-base">/mo</span>
           </h2>
         </div>
-        <ul className="*:text-slate-100 space-y-4">
+        <ul className="*:text-slate-100 space-y-3 sm:space-y-4">
           {item.features.map((features: string) => (
-            <li
-              className="flex gap-2 items-center"
-              key={`${features}_${item.id}`}
-            >
+            <li className="flex gap-2" key={`${features}_${item.id}`}>
               <svg
                 width="20"
                 height="20"
@@ -57,7 +54,7 @@ export default function Box(item: any) {
           ))}
         </ul>
       </div>
-      <button className="bg-[#7E4BFA] mt-12  w-full rounded font-medium py-3">
+      <button className="bg-[#7E4BFA] border border-[#C2A8FF] mt-12  w-full rounded font-medium py-3">
         Start {item.title} Plan
       </button>
     </div>
