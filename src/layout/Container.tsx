@@ -9,7 +9,7 @@ export default function Container({
 }) {
   return (
     <main
-      className={`min-h-screen my-20 space-y-20 max-w-[1080px] mx-auto px-4 lg:px-0 ${className}`}
+      className={`min-h-screen mb-20 space-y-20 max-w-[1080px] mx-auto px-4 lg:px-0 ${className}`}
     >
       {children}
     </main>

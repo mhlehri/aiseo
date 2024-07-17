@@ -10,8 +10,8 @@ export default function Overview() {
     <section className="grid md:grid-cols-2  *:max-w-[540px] h-full gap-6">
       <div className="space-y-6">
         <h4 className="text-xl font-semibold">Account Details</h4>
-        <div className="py-8 border-2 rounded-md border-slate-600 bg-[#182130] flex justify-between">
-          <div className="flex gap-6 lg:gap-10 px-6 sm:flex-row flex-col lg:px-8 py-4">
+        <div className="py-8 border-2 rounded-md md:h-full md:max-h-[330px] border-slate-600 bg-[#182130] flex flex-col sm:flex-row justify-between ">
+          <div className="flex gap-4 lg:gap-10 px-6 sm:flex-row flex-col lg:px-8 py-4">
             <Image
               width={500}
               height={500}
@@ -36,14 +36,14 @@ export default function Overview() {
               </div>
             </div>
           </div>
-          <button className="bg-[#7E4BFA] h-fit border duration-200 hover:bg-[#7d4bfab9] border-[#C2A8FF] px-5 font-semibold rounded py-1.5 mr-8">
+          <button className="bg-[#7E4BFA] h-fit border duration-200 hover:bg-[#7d4bfab9] border-[#C2A8FF] px-5 font-semibold rounded py-1.5 ml-6 sm:ml-0 mr-8 w-fit">
             Edit
           </button>
         </div>
       </div>
       <div className="space-y-6">
         <h4 className="text-xl font-semibold">Current Plan</h4>
-        <div className="border-2 border-slate-600 gap-10 bg-[#182130] rounded-md px-8 py-8">
+        <div className="border-2 border-slate-600 md:max-h-[330px] md:h-full gap-10 bg-[#182130] rounded-md px-8 py-8">
           <div className="space-y-4 mb-6">
             <div className="flex items-start justify-between">
               <div>
