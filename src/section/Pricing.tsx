@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Pricing() {
   return (
-    <div>
+    <section>
       <p className="text-slate-200 font-medium mb-2">Upgrade your account</p>
       <div className="flex gap-5">
         <h3 className="text-2xl font-semibold">Save 20% with annual</h3>{" "}
@@ -17,6 +17,6 @@ export default function Pricing() {
           <Box key={item.id} {...item} />
         ))}
       </div>
-    </div>
+    </section>
   );
 }
