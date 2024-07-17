@@ -1,0 +1,47 @@
+export const pricingArray = [
+  {
+    id: 1,
+    title: "Basic",
+    price: 9.99,
+    tag: null,
+    features: [
+      "20,000 words/month",
+      "Basic Humanization Features",
+      "Language Support: 2 languages",
+      "Email Support",
+      "Access to Standard Engine",
+      "Basic AI Detector Evasion",
+    ],
+  },
+  {
+    id: 2,
+    title: "Standard",
+    price: 29.99,
+    tag: "Popular",
+    features: [
+      "100,000 words/month",
+      "Advanced Humanization Features",
+      "Language Support: 5 languages",
+      "Priority Email Support",
+      "Access to Advanced Engine",
+      "Improved AI Detector Evasion",
+      "Content Style Diversity Options",
+    ],
+  },
+  {
+    id: 3,
+    title: "Premium",
+    price: 59.99,
+    tag: null,
+    features: [
+      "300,000 words/month",
+      "All Advanced Features",
+      "Unlimited Language Support",
+      "Priority Phone and Email Support",
+      "Access to Premium Engine",
+      "Advanced AI Detector",
+      "Real-Time Human Score Analysis",
+      "Dedicated Account Manager",
+    ],
+  },
+];
