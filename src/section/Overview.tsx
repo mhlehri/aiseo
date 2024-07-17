@@ -115,7 +115,7 @@ export default function Overview() {
             <p>
               Looks like there&apos;s a past due!{" "}
               <a
-                href=""
+                href="https://chatgpt.com/c/6aa27651-4878-4b5c-ad53-ab92140e615a"
                 className="text-green-400 underline underline-offset-2"
                 target="_blank"
               >
